@@ -57,7 +57,7 @@ export default function App ({ runtime, ims }) {
   return (
     <Provider theme={defaultTheme} colorScheme="light">
       <View
-        UNSAFE_style={{ backgroundColor: '#FF69B4', minHeight: '100vh' }}
+        UNSAFE_style={{ backgroundColor: '#D7373F', minHeight: '100vh' }}
         padding="size-400"
       >
         <Flex direction="column" gap="size-300" maxWidth="size-6000" margin="0 auto">
