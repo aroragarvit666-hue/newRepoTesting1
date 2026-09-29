@@ -56,8 +56,11 @@ export default function App ({ runtime, ims }) {
 
   return (
     <Provider theme={defaultTheme} colorScheme="light">
-      <View padding="size-400" maxWidth="size-6000" margin="0 auto">
-        <Flex direction="column" gap="size-300">
+      <View
+        UNSAFE_style={{ backgroundColor: '#FFD500', minHeight: '100vh' }}
+        padding="size-400"
+      >
+        <Flex direction="column" gap="size-300" maxWidth="size-6000" margin="0 auto">
           <Heading level={1}>Hello World</Heading>
           <Content>
             <Text>
